@@ -26,8 +26,6 @@ local start = [[
 /hyper [ [text](url) ]
 - [Hypers2Bot](Telegram.Me/Hypers2Bot)
 
-/hyperch [Channel] [_test_]
-
 *FOR EXAMPLE*
 
 /hyper [`Hi`]
@@ -42,15 +40,13 @@ local start = [[
 _Based on Lua_
 [Channel](http://telegram.me/NoroTeam)
 
-*OTHER COMMANDS*
-
-*sticker to photo*
-`send sticker to change format to photo`
-
-*photo to sticker*
-`send photo to create sticker`
+*Sticker To Picture*
+*Picture To Sticker*
 
 _Enjoy !_
+
+*Warning* This is open source Project !
+[Source On GitHub](https://github.com/sepehrkiller/Hypers2Bot)
 ]] 
 
 -------
@@ -220,9 +216,8 @@ function bot_run()
 	currect_folder = ""
 end
 
---[==[
-https://github.com/sepehrkiller/
-<!--]==]	
+-- https://github.com/sepehrkiller/
+	
 
 function msg_processor(msg)
 	if msg.new_chat_participant or msg.new_chat_title or msg.new_chat_photo or msg.left_chat_participant then return end
@@ -265,7 +260,7 @@ function msg_processor(msg)
 *Tablighat Shoma Mahiane 5 Toman*
   ]], true, false, true)
  
- 
+-- For channels edit this one
 --[==[
  elseif msg.text:match("^/hyperch (.*) (.*)") then
 	local matches = { string.match(msg.text, "^/hyperch (.*) (.*)") }
