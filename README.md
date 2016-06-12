@@ -31,7 +31,7 @@ local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = "" -- do not set this
 ```
 
-And enter your telegram-id in admins table in [Hypers2Bot.lua](https://github.com/sepehrkiller/Hypers2Bot/blob/master/Hypers2Bot.lua#L19)
+And enter your telegram-id in admins table in [Hypers2Bot.lua](https://github.com/sepehrkiller/Hypers2Bot/blob/master/Hypers2Bot.lua#L62)
 ```lua
 local var = false
   local admins = {111222333}-- put your id here
