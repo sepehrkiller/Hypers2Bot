@@ -1,3 +1,5 @@
+⚠️ UNMAINTAINED / DEPRECATED ⚠️
+============
 # Hypers2Bot
 
 A simple telegram Hyper bot written in Lua
