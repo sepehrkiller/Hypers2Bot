@@ -1,6 +1,7 @@
 # Hypers2Bot
 
 A simple telegram Hyper bot written in Lua
+
 You should have [lua](http://www.lua.org/) installed
 
 # Installation
