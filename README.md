@@ -54,12 +54,3 @@ Save Hypers2Bot.lua
 ```
 bash launch.sh install && bash launch.sh
 ``` 
-
-# Warning
-
-CopyRight 2016 (C)
-Made On Lua
-Based On GNU LICENSE
-
-Created By : [SepehrKiller](https://telegram.me/sepehrkiller)
-Enjoy !
